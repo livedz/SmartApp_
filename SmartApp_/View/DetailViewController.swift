@@ -20,9 +20,7 @@ class DetailViewController: UIViewController {
     }
     
     override func viewWillAppear(_ animated: Bool) {
-     /*   if self.urlstring != nil {
-            self.DetailsPosterimgview.loadRemoteImageFrom(urlString:self.urlstring)
-        }*/
+    
     }
     
     /*

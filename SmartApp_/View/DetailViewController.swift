@@ -14,13 +14,15 @@ class DetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor(named: "Color")
-        
-    }
-    
-    override func viewWillAppear(_ animated: Bool) {
         if self.urlstring != nil {
             self.DetailsPosterimgview.loadRemoteImageFrom(urlString:self.urlstring)
         }
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+     /*   if self.urlstring != nil {
+            self.DetailsPosterimgview.loadRemoteImageFrom(urlString:self.urlstring)
+        }*/
     }
     
     /*
